@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* --------NAVBAR-------- */
+.logo {
+  width: 2rem;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  list-style-type: none;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+  font-size: large;
+  font-weight: 700;
+}
+
+.cart {
+  width: 2rem;
+}
+
+/* --------MAIN-------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(152, 91, 208);
+}
+
+/* --------HERO-------- */
+
+#hero {
+  display: flex;
+  width: 1200px;
+  padding: 50px 0px;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgba(249, 94, 179, 0.991);
+  border-radius: 8px;
+}
+
+.presentacion h1 {
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.presentacion p {
+  padding: 0px 30px;
+  font-size: 20px;
+}
+
+.img-perrito {
+  padding: 20px 20px;
+}
+
+/* --------ABOUT-------- */
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+.nosotros {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h4 {
+  font-weight: 1000;
+  padding: 30px;
+}
+
+.nosotros h2 {
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+.logorc {
+  height: 6rem;
+}
+
+.logonomade {
+  height: 6rem;
+}
+
+.logopurina {
+  height: 10rem;
+}
+
+.sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+/* --------CARDS-------- */
+#disponibles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.product img {
+  width: 350px;
+}
+
+.doginfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px 10px 0px;
+}
+
+.doginfo p {
+  font-size: 13px;
+}
+
+.doginfo h3 {
+  font-size: 20px;
+}
+
+.product button {
+  font-size: 25px;
+  border-radius: 8px;
+  background-color: aquamarine;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+/* --------CONTACTO-------- */
+.contacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.list h1 {
+  font-size: 50px;
+}
+
+.list li {
+  list-style: none;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+.list img {
+  width: 40px;
+}
+
+.imgmapa {
+  width: 400px;
+}
+
+<!-- /* --------FOOTER-------- */ -->
+
+.footer img {
+  width: 1rem;
+}
