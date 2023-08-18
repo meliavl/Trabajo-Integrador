@@ -12,6 +12,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 /* --------NAVBAR-------- */
@@ -39,8 +43,13 @@
   font-weight: 700;
 }
 
-.cart {
-  width: 2rem;
+.navbar i {
+  font-size: 36px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
 }
 
 /* --------MAIN-------- */
@@ -59,6 +68,7 @@ main {
   display: flex;
   width: 1200px;
   padding: 50px 0px;
+  margin-top: 80px;
 }
 
 .presentacion {
@@ -82,7 +92,8 @@ main {
   font-size: 20px;
 }
 
-.img-perrito {
+.logo-1 {
+  display: flex;
   padding: 20px 20px;
 }
 
